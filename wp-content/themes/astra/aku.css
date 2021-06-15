@@ -1,0 +1,194 @@
+
+@font-face {
+font-family: "Malvie";
+src: url('Malvie.otf');
+}
+
+.category-mie-goreng .entry-title, 
+.category-mie-kuah .entry-title {
+font-family: "Malvie" !important;
+}
+
+.category-mie-goreng .qodef-e-title a, 
+.category-mie-kuah .qodef-e-title a,
+.elementor-43 .elementor-element.elementor-element-2f2acd6 .elementor-heading-title,
+.elementor-43 .elementor-element.elementor-element-bd10691 .elementor-heading-title
+{
+font-family: "Malvie" !important;	
+}
+
+.ast-separate-container .ast-article-post, 
+.ast-separate-container .ast-article-single:not(.ast-related-post) {
+	background-color: transparent !important;
+}
+
+.single .entry-header .post-thumb img,
+.single .entry-header,
+.ast-single-post .entry-title, .page-title {
+	text-align: center !important;
+}
+
+.single .entry-header .post-thumb img {
+background-position: center !important;
+}
+
+.entry-content p {
+	padding-left: 15%;
+	font-size: 16px !important;
+	text-align: justify;
+}
+
+/*.category-mie-goreng .entry-content p, 
+.category-mie-kuah .entry-content p */
+.entry-content p 
+{
+	text-align: justify !important;
+}
+
+
+.postgrid img {
+	background-size: cover !important;
+	height: 240px !important;
+}
+
+.ast-related-posts-inner-section .post-thumb-img-content a img {
+	height: 200px !important;
+	width: 100% !important;
+	object-fit: cover !important;
+}
+
+.ast-separate-container .comments-area {
+	display: none !important;
+}
+
+.qodef-e-title a {
+	display: block;
+	width: 100%;
+	height: 100px;
+	overflow: hidden !important;
+}
+
+/*.qodef-addons-blog-list .qodef-blog-item .qodef-e-excerpt {
+	margin-top: -50px !important;
+}*/
+
+.site-content {
+	margin-bottom: 50px !important;
+}
+.pt-cv-content {
+	padding-left: 66px;
+	text-align: left;
+	justify-content: center !important;
+}
+.pt-cv-content:after {
+	content: " ";
+	position: absolute;
+	width: 50px;
+	height: 20px;
+	left: 80px;
+	top: 440px;
+	background-color: #fff2ae;
+	z-index: 999999999999999999999999999999;
+}
+
+.pt-cv-wrapper img {
+	height: 250px;
+	object-fit: cover;
+	transition: transform .3s !important;	
+}
+.pt-cv-wrapper img:hover {
+  -ms-transform: scale(1.1) !important; /* IE 9 */
+  -webkit-transform: scale(1.1) !important; /* Safari 3-8 */
+  transform: scale(1.1) !important; 
+  background-image: url(https://sejatinoodles.com/wp-content/uploads/2021/06/bg-hover.svg) !important;
+  background-size: cover !important;
+}
+
+.pt-cv-view .pt-cv-title {
+	height: 58px !important;
+	overflow: hidden !important;
+	margin-top: 30px !important;
+	text-align: center !important;
+}
+
+.pt-cv-meta-fields {
+	text-align: center !important;
+	position: absolute;
+	top: 260px;
+	color: #000 !important;
+	font-size: 16px;
+	width: 90%;
+}
+
+.pt-cv-meta-fields a {
+	color: #111 !important;
+}
+.pt-cv-meta-fields {
+	color: transparen !important;
+}
+
+.pt-cv-tax-post-format-image {
+	display: none !important;
+}
+
+.pt-cv-title a {
+	line-height: 30px !important;
+	font-weight: 500 !important;
+	font-weight: normal !important;
+	font-size: 30px !important;
+	font-family: "Malvie" !important;
+}
+
+.pt-cv-readmore {
+    padding: 8px 30px 8px 30px !important;
+	background-color: transparent !important;
+	border: 1px solid #ed3237 !important;
+	color: #ED3237 !important;
+	left: 11% !important;
+	margin: 25px auto 0 auto !important;
+	position: relative !important;
+}
+.pt-cv-readmore:hover {
+	background-color: #ed3237 !important;
+	border: 1px solid #ed3237 !important;
+	color: #fff !important;
+}
+
+
+
+@media (max-width: 768px) {
+	body:not(.rtl) .elementor-5 .elementor-element.elementor-element-fa79c34 {
+		position: absolute !important;
+		width: 100% !important;
+	}
+	.elementor-5 .elementor-element.elementor-element-fa79c34 img {
+		width: 100% !important;
+	}
+	.elementor-5 .elementor-element.elementor-element-393a8db {
+		position: absolute !important;
+		right: 70px !important;
+		width: 90px !important;
+		padding-left: 30px !important;
+	}
+	.qodef-e-title a {
+		display: block;
+		height: auto !important;
+		overflow: auto !important;
+	}
+	.postgrid img {
+		background-size: 100% auto !important;
+		height: auto !important;
+	}
+/*	.n2-ss-slider-2 {
+		padding: 0 !important;
+		object-fit: contain !important;
+		height: 160px !important;
+	}*/
+	.elementor-43 .elementor-element.elementor-element-f0b3464 {
+		margin-top: 0 !important;
+	}
+		.pt-cv-content {
+			padding-left: 50px !important;
+		}
+
+}
